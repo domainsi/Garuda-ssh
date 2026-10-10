@@ -154,6 +154,11 @@ cat evidence/chain_of_custody.sha256
   <img src="https://github.com/domainsi/Garuda-ssh/blob/main/Screenshot_20261011-063023.png" />
 </p>
 
+<p align="center">
+  <img src="https://github.com/domainsi/Garuda-ssh/blob/main/Screenshot_20261011-063023.png" />
+</p>
+
+
 ---
 
 ## 📊 Matriks 52 Modul GARUDA SSH
