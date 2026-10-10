@@ -70,7 +70,7 @@ Cukup clone repositori lalu jalankan installer otomatis:
 
 ```bash
 # 1. Clone repositori dari GitHub
-git clone https://github.com/username-anda/garuda-ssh.git
+git clone https://github.com/domainsi/Garuda-ssh
 
 # 2. Masuk ke direktori proyek
 cd garuda-ssh
@@ -91,7 +91,7 @@ Jika Anda ingin melakukan konfigurasi manual langkah demi langkah:
 sudo apt update && sudo apt install -y python3 git
 
 # 2. Clone repositori
-git clone https://github.com/username-anda/garuda-ssh.git
+git clone https://github.com/domainsi/Garuda-ssh
 cd garuda-ssh
 
 # 3. Berikan izin eksekusi pada skrip utama
@@ -112,7 +112,7 @@ Untuk pengguna Android yang menjalankan Termux:
 pkg update -y && pkg install -y python git
 
 # 2. Clone repositori
-git clone https://github.com/username-anda/garuda-ssh.git
+git clone https://github.com/domainsi/Garuda-ssh
 cd garuda-ssh
 
 # 3. Berikan izin eksekusi
