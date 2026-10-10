@@ -1,0 +1,13 @@
+# ==============================================================================
+# GARUDA SSH - Requirements Manifest
+# ==============================================================================
+# Core Engine: 100% Native Python 3 Standard Library!
+# Zero External Dependencies Required!
+# 
+# Modul bawaan yang digunakan:
+# - socket, ssl, urllib.request, urllib.parse, urllib.error
+# - hashlib, json, datetime, random, time, re, os, sys
+#
+# Persyaratan Minimal:
+# Python >= 3.8
+# ==============================================================================
