@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Kali-linux-logo.svg/512px-Kali-linux-logo.svg.png" width="130" alt="Kali Linux Logo" />
+  <img src="[https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Kali-linux-logo.svg/512px-Kali-linux-logo.svg.png](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTph1-XQYsnEDwoY63mJI3BEXYoUMCWqHDux1ErrNuw0BiJgPPKQpoEPLel&s=10)" width="130" alt="Kali Linux Logo" />
 </p>
 
 <h1 align="center">🦅 GARUDA SSH 🦅</h1>
