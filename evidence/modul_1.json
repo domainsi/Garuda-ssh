@@ -1,0 +1,11 @@
+{
+  "module": "MODUL 01",
+  "title": "BGP / ASN Route Telemetry",
+  "status": "BERHASIL (SOCKET LIVE)",
+  "summary": "Resolusi IP target aktif.",
+  "details": {
+    "resolved_ip": "127.0.0.1",
+    "error": "[Errno 7] No address associated with hostname"
+  },
+  "timestamp": "2026-10-11T05:00:21.785758"
+}
