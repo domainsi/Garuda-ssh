@@ -1,0 +1,12 @@
+{
+  "module": "MODUL 16",
+  "title": "Live Cookie Security & SameSite Flag Audit",
+  "status": "BERHASIL",
+  "summary": "Ditemukan 0 cookie header dengan analisis atribut keamanan.",
+  "details": {
+    "cookies": [],
+    "secure_flag_present": false,
+    "httponly_flag_present": false
+  },
+  "timestamp": "2026-10-11T05:00:25.503752"
+}

@@ -1,0 +1,12 @@
+{
+  "module": "MODUL 12",
+  "title": "Live SSL Protocol Cipher Suite Matrix",
+  "status": "BERHASIL",
+  "summary": "Matriks cipher suite dan protokol TLS berhasil dipetakan.",
+  "details": {
+    "tls_version": "Not Available",
+    "cipher_details": "Plaintext / WAF Blocked",
+    "certificate_issuer": {}
+  },
+  "timestamp": "2026-10-11T05:00:24.740941"
+}

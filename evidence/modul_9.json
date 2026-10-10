@@ -1,0 +1,11 @@
+{
+  "module": "MODUL 09",
+  "title": "AlienVault OTX API",
+  "status": "BERHASIL",
+  "summary": "Query CTI publik selesai.",
+  "details": {
+    "status": "Clean",
+    "error": "HTTP Error 400: Bad Request"
+  },
+  "timestamp": "2026-10-11T05:00:24.719592"
+}

@@ -1,0 +1,39 @@
+{
+  "module": "MODUL 14",
+  "title": "Live Subdomain HTTP Reachability Check",
+  "status": "BERHASIL",
+  "summary": "Pemeriksaan keterjangkauan HTTP untuk subdomain utama selesai.",
+  "details": {
+    "subdomains_probed": {
+      "www.--help": {
+        "reachable": false,
+        "error": "<urlopen error [Errno 7] No address associated with hostname>"
+      },
+      "mail.--help": {
+        "reachable": false,
+        "error": "<urlopen error [Errno 7] No address associated with hostname>"
+      },
+      "webmail.--help": {
+        "reachable": false,
+        "error": "<urlopen error [Errno 7] No address associated with hostname>"
+      },
+      "cpanel.--help": {
+        "reachable": false,
+        "error": "<urlopen error [Errno 7] No address associated with hostname>"
+      },
+      "api.--help": {
+        "reachable": false,
+        "error": "<urlopen error [Errno 7] No address associated with hostname>"
+      },
+      "portal.--help": {
+        "reachable": false,
+        "error": "<urlopen error [Errno 7] No address associated with hostname>"
+      },
+      "admin.--help": {
+        "reachable": false,
+        "error": "<urlopen error [Errno 7] No address associated with hostname>"
+      }
+    }
+  },
+  "timestamp": "2026-10-11T05:00:25.331382"
+}

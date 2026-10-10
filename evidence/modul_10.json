@@ -1,0 +1,18 @@
+{
+  "module": "MODUL 10",
+  "title": "Live HTTP Header Security Audit",
+  "status": "BERHASIL",
+  "summary": "Audit mendalam header keamanan HTTP pada target selesai.",
+  "details": {
+    "security_headers_audit": {
+      "Strict-Transport-Security": "MISSING",
+      "Content-Security-Policy": "MISSING",
+      "X-Frame-Options": "MISSING",
+      "X-Content-Type-Options": "MISSING",
+      "X-XSS-Protection": "MISSING",
+      "Referrer-Policy": "MISSING"
+    },
+    "total_checked": 6
+  },
+  "timestamp": "2026-10-11T05:00:24.729444"
+}

@@ -1,0 +1,33 @@
+{
+  "module": "MODUL 02",
+  "title": "Cloudflare DoH Live DNS Resolution",
+  "status": "BERHASIL",
+  "summary": "Query DNS DoH real-time berhasil untuk --help.",
+  "details": {
+    "doh_response": {
+      "Status": 3,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": true,
+      "CD": false,
+      "Question": [
+        {
+          "name": "--help",
+          "type": 1
+        }
+      ],
+      "Authority": [
+        {
+          "name": "",
+          "type": 6,
+          "TTL": 86400,
+          "data": "a.root-servers.net. nstld.verisign-grs.com. 2026101001 1800 900 604800 86400"
+        }
+      ]
+    },
+    "answers": [],
+    "provider": "Cloudflare Public DoH"
+  },
+  "timestamp": "2026-10-11T05:00:22.041451"
+}

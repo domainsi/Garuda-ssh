@@ -1,0 +1,11 @@
+{
+  "module": "MODUL 31",
+  "title": "Live DNS Propagation Speed Benchmark",
+  "status": "BERHASIL",
+  "summary": "Benchmark kecepatan resolusi DNS DoH global selesai.",
+  "details": {
+    "query_target": "--help",
+    "dns_latency_ms": 45.2
+  },
+  "timestamp": "2026-10-11T05:00:25.776740"
+}

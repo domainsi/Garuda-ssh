@@ -1,0 +1,12 @@
+{
+  "module": "MODUL 22",
+  "title": "Live Cache-Control & Pragma Audit",
+  "status": "BERHASIL",
+  "summary": "Audit header Cache-Control, Pragma, dan Expires selesai.",
+  "details": {
+    "cache_control": "Not Set",
+    "pragma": "Not Set",
+    "expires": "Not Set"
+  },
+  "timestamp": "2026-10-11T05:00:25.520766"
+}

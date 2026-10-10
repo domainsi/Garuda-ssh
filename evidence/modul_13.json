@@ -1,0 +1,10 @@
+{
+  "module": "MODUL 13",
+  "title": "Live DNS MX & Mail Exchanger Probe",
+  "status": "BERHASIL",
+  "summary": "Ditemukan 0 mail exchanger (MX) record.",
+  "details": {
+    "mx_records": []
+  },
+  "timestamp": "2026-10-11T05:00:24.882628"
+}

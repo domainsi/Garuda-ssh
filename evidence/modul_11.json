@@ -1,0 +1,12 @@
+{
+  "module": "MODUL 11",
+  "title": "Live Content-Type & Encoding Telemetry",
+  "status": "BERHASIL",
+  "summary": "Analisis Content-Type dan Content-Encoding respons utama selesai.",
+  "details": {
+    "content_type": "Unknown",
+    "content_encoding": "None/Identity",
+    "transfer_encoding": "None"
+  },
+  "timestamp": "2026-10-11T05:00:24.735477"
+}

@@ -1,0 +1,11 @@
+{
+  "module": "MODUL 44",
+  "title": "Live Content Type Sniffing Defense Check",
+  "status": "BERHASIL",
+  "summary": "Pemeriksaan pertahanan Content Type Sniffing (X-Content-Type-Options) selesai.",
+  "details": {
+    "x_content_type_options": "Not Set",
+    "sniffing_protected": false
+  },
+  "timestamp": "2026-10-11T05:00:26.179256"
+}

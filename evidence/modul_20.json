@@ -1,0 +1,11 @@
+{
+  "module": "MODUL 20",
+  "title": "Live robots.txt & Sensitive Path Prober",
+  "status": "BERHASIL",
+  "summary": "Pengunduhan dan analisis file /robots.txt selesai.",
+  "details": {
+    "robots_txt_found": false,
+    "snippet": "Not accessible or 404"
+  },
+  "timestamp": "2026-10-11T05:00:25.514697"
+}

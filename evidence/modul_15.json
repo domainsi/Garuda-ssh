@@ -1,0 +1,11 @@
+{
+  "module": "MODUL 15",
+  "title": "Live HTTP Redirect & HSTS Chain Analysis",
+  "status": "BERHASIL",
+  "summary": "Analisis rantai redirect HTTP -> HTTPS selesai (0 hops).",
+  "details": {
+    "redirect_chain": [],
+    "hsts_active": false
+  },
+  "timestamp": "2026-10-11T05:00:25.501435"
+}

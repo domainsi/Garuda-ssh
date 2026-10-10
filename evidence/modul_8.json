@@ -1,0 +1,10 @@
+{
+  "module": "MODUL 08",
+  "title": "Live HTTP Probe",
+  "status": "WAF PROTECTED / OFFLINE",
+  "summary": "Koneksi HTTP diblokir atau timeout.",
+  "details": {
+    "error": "<urlopen error [Errno 7] No address associated with hostname>"
+  },
+  "timestamp": "2026-10-11T05:00:24.402199"
+}

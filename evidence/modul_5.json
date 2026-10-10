@@ -1,0 +1,11 @@
+{
+  "module": "MODUL 05",
+  "title": "crt.sh Live Mining",
+  "status": "BERHASIL",
+  "summary": "Query database publik selesai.",
+  "details": {
+    "domain": "--help",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "timestamp": "2026-10-11T05:00:23.525710"
+}

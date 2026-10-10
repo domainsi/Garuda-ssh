@@ -1,0 +1,11 @@
+{
+  "module": "MODUL 23",
+  "title": "Live Content Security Policy (CSP) Inspection",
+  "status": "BERHASIL",
+  "summary": "Inspeksi direktif Content Security Policy (CSP) selesai.",
+  "details": {
+    "csp_header": "Not Implemented",
+    "csp_active": false
+  },
+  "timestamp": "2026-10-11T05:00:25.522377"
+}

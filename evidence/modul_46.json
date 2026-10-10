@@ -1,0 +1,10 @@
+{
+  "module": "MODUL 46",
+  "title": "Live Permissions-Policy & Sandbox Header Check",
+  "status": "BERHASIL",
+  "summary": "Inspeksi header Permissions-Policy / Feature-Policy selesai.",
+  "details": {
+    "permissions_policy": "Not Set"
+  },
+  "timestamp": "2026-10-11T05:00:26.219687"
+}

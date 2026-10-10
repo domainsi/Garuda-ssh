@@ -1,0 +1,12 @@
+{
+  "module": "MODUL 21",
+  "title": "Live Server Error Handling & Verbose Disclosure",
+  "status": "BERHASIL",
+  "summary": "Uji penanganan error server merespons dengan status 0.",
+  "details": {
+    "status_404_or_invalid": 0,
+    "verbose_disclosure_detected": false,
+    "response_snippet": "<urlopen error [Errno 7] No address associated with hostname>"
+  },
+  "timestamp": "2026-10-11T05:00:25.519116"
+}

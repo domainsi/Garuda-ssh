@@ -1,0 +1,10 @@
+{
+  "module": "MODUL 25",
+  "title": "Live Subresource Integrity (SRI) Check",
+  "status": "BERHASIL",
+  "summary": "Analisis Subresource Integrity (SRI) menemukan 0 atribut integritas pada elemen eksternal.",
+  "details": {
+    "sri_attributes_found": 0
+  },
+  "timestamp": "2026-10-11T05:00:25.525477"
+}

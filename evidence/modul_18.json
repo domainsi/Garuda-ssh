@@ -1,0 +1,10 @@
+{
+  "module": "MODUL 18",
+  "title": "Live API Rate Limiting Threshold Probe",
+  "status": "BERHASIL",
+  "summary": "Pemeriksaan header pembatasan tingkat permintaan (Rate Limiting) selesai.",
+  "details": {
+    "rate_limiting_headers": "No explicit rate-limit headers exposed in gateway."
+  },
+  "timestamp": "2026-10-11T05:00:25.507899"
+}

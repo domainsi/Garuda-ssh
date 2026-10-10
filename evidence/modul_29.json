@@ -1,0 +1,11 @@
+{
+  "module": "MODUL 29",
+  "title": "Live SSL Certificate Expiration & Chain Verification",
+  "status": "BERHASIL",
+  "summary": "Verifikasi masa berlaku sertifikat SSL (Not After: N/A) selesai.",
+  "details": {
+    "certificate_expiration": "N/A",
+    "chain_valid": false
+  },
+  "timestamp": "2026-10-11T05:00:25.557302"
+}

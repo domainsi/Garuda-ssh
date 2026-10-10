@@ -1,0 +1,11 @@
+{
+  "module": "MODUL 30",
+  "title": "Live Public Threat Feed Correlation (OTX)",
+  "status": "BERHASIL",
+  "summary": "Korelasi umpan ancaman publik OTX AlienVault selesai.",
+  "details": {
+    "otx_pulses_correlated": 0,
+    "malware_families_detected": []
+  },
+  "timestamp": "2026-10-11T05:00:25.772128"
+}

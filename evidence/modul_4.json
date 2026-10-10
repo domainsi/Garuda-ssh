@@ -1,0 +1,10 @@
+{
+  "module": "MODUL 04",
+  "title": "Live TLS Inspection",
+  "status": "WAF PROTECTED / TIMEOUT",
+  "summary": "Port 443 aktif namun handshakes dibatasi WAF atau timeout.",
+  "details": {
+    "error": "[Errno 7] No address associated with hostname"
+  },
+  "timestamp": "2026-10-11T05:00:22.593695"
+}

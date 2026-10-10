@@ -1,0 +1,12 @@
+{
+  "module": "MODUL 40",
+  "title": "Live Asset Link & Static Resource Telemetry",
+  "status": "BERHASIL",
+  "summary": "Ekstraksi aset statis mendapati 0 skrip JS dan 0 stylesheet CSS.",
+  "details": {
+    "scripts_count": 0,
+    "stylesheets_count": 0,
+    "sample_assets": []
+  },
+  "timestamp": "2026-10-11T05:00:26.029258"
+}

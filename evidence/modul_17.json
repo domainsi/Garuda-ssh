@@ -1,0 +1,12 @@
+{
+  "module": "MODUL 17",
+  "title": "Live CORS Header Policy Inspection",
+  "status": "BERHASIL",
+  "summary": "Inspeksi kebijakan Cross-Origin Resource Sharing (CORS) selesai.",
+  "details": {
+    "access_control_allow_origin": "Not Set (Secure default)",
+    "access_control_allow_methods": "Not Set",
+    "access_control_allow_credentials": "Not Set"
+  },
+  "timestamp": "2026-10-11T05:00:25.505982"
+}

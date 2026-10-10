@@ -1,0 +1,11 @@
+{
+  "module": "MODUL 24",
+  "title": "Live X-Frame-Options & Clickjacking Defense",
+  "status": "BERHASIL",
+  "summary": "Pemeriksaan perlindungan Clickjacking (X-Frame-Options / Frame-Ancestors) selesai.",
+  "details": {
+    "x_frame_options": "Not Set",
+    "clickjacking_protected": false
+  },
+  "timestamp": "2026-10-11T05:00:25.523996"
+}

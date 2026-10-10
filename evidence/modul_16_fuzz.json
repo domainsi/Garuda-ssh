@@ -1,0 +1,22 @@
+{
+  "/search?q=<script>alert(1)</script>": {
+    "status": 404,
+    "result": "HTTP ERROR"
+  },
+  "/berita?id=1' OR '1'='1": {
+    "status": 0,
+    "result": "BLOCKED / TIMEOUT"
+  },
+  "/.env": {
+    "status": 404,
+    "result": "HTTP ERROR"
+  },
+  "/storage/logs/laravel.log": {
+    "status": 404,
+    "result": "HTTP ERROR"
+  },
+  "/api/v1/users": {
+    "status": 404,
+    "result": "HTTP ERROR"
+  }
+}

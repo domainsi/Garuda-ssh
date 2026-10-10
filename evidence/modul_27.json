@@ -1,0 +1,11 @@
+{
+  "module": "MODUL 27",
+  "title": "Live Open Port Banner Fingerprinting",
+  "status": "BERHASIL",
+  "summary": "Pengambilan banner layanan dari port terbuka selesai.",
+  "details": {
+    "open_ports_fingerprinted": [],
+    "server_banner": ""
+  },
+  "timestamp": "2026-10-11T05:00:25.552521"
+}

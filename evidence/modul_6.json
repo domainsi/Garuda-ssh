@@ -1,0 +1,11 @@
+{
+  "module": "MODUL 06",
+  "title": "Live TCP Port & Service Prober",
+  "status": "BERHASIL",
+  "summary": "Pemindaian port aktif otonom selesai. Port terbuka: []",
+  "details": {
+    "target": "--help",
+    "open_ports": []
+  },
+  "timestamp": "2026-10-11T05:00:23.558772"
+}
